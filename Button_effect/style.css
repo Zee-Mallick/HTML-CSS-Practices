@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d86981;
+}
+
+.btn{
+  width: 200px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #face62, #e43603, #fa7199, #e85a19);
+  transition: all 0.45 ease-in-out;
+}
+
+.btn:hover{
+  background-position: 100% 0;
+  transition: all 0.45 ease-in-out;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+
+
+
+
+
+
